@@ -1,0 +1,48 @@
+.page {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  overflow: auto;
+  background: rgb(205, 133, 133);
+  background: linear-gradient(126deg, rgb(131, 99, 29) -40%, rgb(55, 41, 105) 73%, rgb(79, 15, 108) 100%);
+}
+
+.todosContainer {
+  position: ;
+  margin: auto;
+  margin-top: 129.1px;
+  background: rgba(33, 17, 70, 0.5);
+  border-radius: 35px;
+  min-height: 489px;
+  height: auto;
+  box-sizing: border-box;
+  min-width: 600px;
+  max-width: 600px;
+  box-shadow: inset 10px -10px 20px 0px rgba(0, 0, 0, 0.5), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  
+}
+
+button {
+  background-color: #454645;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

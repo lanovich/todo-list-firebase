@@ -1,0 +1,54 @@
+/* Импорт шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Базовые стили для документа */
+html {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Пример использования переменных */
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #6C757D;
+  --font-size-base: 1rem;
+}
+
+/* Стили ссылок */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Пример стиля заголовков */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+/* Классы-утилиты */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

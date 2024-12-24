@@ -1,0 +1,75 @@
+.todoList {
+  background-color: #C1A4F9;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  min-height: 278px;
+  max-height: 328px;
+  overflow-y: auto;
+  margin: 30px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #d5c4f8;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoText {
+  flex: 1;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.todoActions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit {
+  background-color: rgb(121, 87, 247);
+}
+
+.edit:hover {
+  background-color: rgb(102, 64, 240);
+}
+
+.delete {
+  background-color: rgb(230, 65, 100);
+}
+
+.delete:hover {
+  background-color: rgb(212, 34, 72);
+}
+
+.time {
+  display: flex;
+  flex-direction: row-reverse;
+  span {
+    text-align: center;
+  }
+}
+
+.todoList::-webkit-scrollbar {
+  width: 10px;
+  background-color: #C1A4F9;
+}
+
+.todoList::-webkit-scrollbar-thumb {
+  background-color: #936ae4;
+}
+
+.todoList::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #C1A4F9;
+}
